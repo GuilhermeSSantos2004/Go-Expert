@@ -14,6 +14,7 @@ func main() {
 	var e string = "Guilherme" // Declaração e atruibução no exato momento
 	var f string               // variável de escopo local
 
+	g := "Gui" // Shorthand ':=' só precisa ser feito uma vez. Depois, use apenas '=' para novas atribuições.
 	println(a) // imprimi em branco (nada) por padrão
 	println(b) // imprimi um valor bool (FALSE) por padrão
 	println(c) // imprimi um valor int (0) por padrão
