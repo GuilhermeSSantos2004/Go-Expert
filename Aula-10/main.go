@@ -1,6 +1,6 @@
 package main
 
-//Closures
+// Closures => Funções anônimas
 
 import "fmt"
 
