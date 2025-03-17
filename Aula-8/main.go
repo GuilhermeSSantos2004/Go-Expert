@@ -21,7 +21,7 @@ func sum(a, b int) (int, error) { //nome_func(var_receber <type>,var_receber <ty
 	if a+b >= 50 {
 		return 0, errors.New("A soma é maior que 50")
 	}
-	return a + b, nil //Essa func retorna um INTEIRO e um err
+	return a + b, nil //Essa func retorna um INTEIRO e um err => nil é nulo, vazio
 }
 
 func sub(a, b int) (int, bool) {
@@ -30,4 +30,8 @@ func sub(a, b int) (int, bool) {
 		return a - b, false
 	}
 	return a - b, true
+}
+
+func soma(a int, b int) (int) {  // indica o retorno da função se remover o '(int)' e a função tiver um retorno não irá funcionar 
+	return a + b
 }
